@@ -1,0 +1,63 @@
+body{
+
+    background-color: darkcyan;
+}
+#s{
+    position: absolute;
+    margin: 10px 40px;
+    font-size: 30px;
+}
+#main{
+    background-color: orange;
+    width: 700;
+    height: 500px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-end;
+    /*animation-name: a1;*/
+    /*animation-duration: 2s;*/
+    /*animation-fill-mode: none;*/
+
+}
+
+.gamer-color{
+    background-color: red;
+    margin: 0 20px;
+    width: 30px;
+    /*height: 250px;*/
+    /*animation-name: a1;*/
+    /*animation-duration: 2s;*/
+    /*animation-fill-mode: none;*/
+
+}
+.score{
+    font-size: 12px;
+    text-align: center;
+}
+.name{
+    font-size: 12px;
+    text-align: center;
+}
+
+.green{
+    animation-name: a1;
+    animation-duration: 2s;
+    background-color: green;
+}
+@keyframes a1{
+    from{
+        /*opacity: 0;*/
+    }
+    to {
+        background-color: green;
+        /*opacity: 1;*/
+        /*min-height: 0;*/
+        /*min-width: 0;*/
+        /*padding: 0;*/
+        /*margin: 0;*/
+        /*border: 0;*/
+    }
+}
